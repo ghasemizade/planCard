@@ -1,5 +1,5 @@
 body{
-    overflow: hidden;
+    overflow: visible;
 }
 *{
     margin: 0;
@@ -24,7 +24,7 @@ html{
 .card{
     width: 28rem !important;
     height: 45rem !important;
-    background-color: #a2b8c7;
+    background-color: #302f2f;
     border-radius: 1rem;
     box-shadow: 2rem 2rem 6rem rgba(0, 0, 0, .7);
 }
@@ -46,4 +46,77 @@ html{
     align-items: center;
     padding-left: 2rem;
     border-radius: 1rem 1rem 0 0;
+}
+.heading-free{
+    background-color: green;
+}
+.heading-basic{
+    background-color: deepskyblue;
+}
+.heading-standard{
+    background-color: orangered;
+}
+.heading-premium{
+    background-color: goldenrod;
+}
+
+.price{
+    font-family: monospace;
+    font-size: 7rem;
+    font-weight: 300;
+    color: white;
+}
+
+.list li{
+    margin-bottom: 0.5;
+}
+
+.list i{
+    font-size: 1.8rem;
+    width: 3rem;
+}
+
+.list span{
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    color: white;
+}
+
+.free{
+    color: green;
+}
+.basic{
+    color: deepskyblue;
+}
+.standard{
+    color: orangered;
+}
+.premium{
+    color: goldenrod;
+}
+
+.card-btn{
+    width: 18rem;
+    height: 5rem;
+    margin-bottom: 3rem;
+    border-radius: 3rem;
+    border: none;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: .3rem .3rem .6rem rgba(0, 0, 0, .6);
+}
+
+.btn-free{
+    background-color: green;
+}
+.btn-basic{
+    background-color: deepskyblue;
+}
+.btn-standard{
+    background-color: orangered;
+}
+.btn-premium{
+    background-color: goldenrod;
 }
